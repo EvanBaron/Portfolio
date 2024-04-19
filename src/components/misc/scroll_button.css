@@ -1,0 +1,45 @@
+@import url("../../colors.css");
+
+.scroll_button {
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll_link {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: var(--white-beige);
+  cursor: pointer;
+  user-select: none;
+}
+
+.underline {
+  display: none;
+  align-self: center;
+  width: 70%;
+  height: 3px;
+  margin-top: -10px;
+  background-color: var(--white-beige);
+  border-radius: 50px;
+}
+
+.scroll_button:hover {
+  .underline {
+    display: flex;
+    animation: scale-in-center 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+}
+
+@keyframes scale-in-center {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}

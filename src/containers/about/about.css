@@ -1,0 +1,174 @@
+@import url("../../colors.css");
+
+.about {
+  background-color: var(--dark-blue);
+}
+
+.about_image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 10%;
+}
+
+.about_glow {
+  position: absolute;
+  height: 900px;
+  width: 100%;
+  bottom: -900px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 200px 200px var(--transparent-blue);
+}
+
+.info {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  bottom: 0;
+  color: var(--dark-blue);
+}
+
+.bubble_1 {
+  height: 50%;
+  left: 6%;
+  bottom: -10%;
+}
+
+.bubble_2 {
+  height: 40%;
+  right: 4%;
+  bottom: 6%;
+}
+
+.bubble_3 {
+  height: 30%;
+  left: 18%;
+  top: 30%;
+}
+
+.bubble_4 {
+  height: 30%;
+  right: 20%;
+  top: 10%;
+}
+
+.bubble_5 {
+  height: 15%;
+  right: 26%;
+  bottom: 40%;
+}
+
+.bubble_6 {
+  height: 15%;
+  left: 10%;
+  top: 10%;
+}
+
+@media screen and (max-width: 1127px) {
+  .bubble_1 {
+    height: 40%;
+    left: 0%;
+    bottom: -5%;
+  }
+
+  .bubble_2 {
+    height: 30%;
+    right: 0%;
+    bottom: 2%;
+  }
+
+  .bubble_3 {
+    height: 25%;
+    top: auto;
+    left: 5%;
+    bottom: 38%;
+  }
+
+  .bubble_4 {
+    top: 5%;
+    right: 10%;
+  }
+
+  .bubble_5 {
+    right: 12%;
+    bottom: 45%;
+  }
+
+  .bubble_6 {
+    top: 12%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .bubble_1 {
+    height: 30%;
+    left: 5%;
+    bottom: -5%;
+  }
+
+  .bubble_2 {
+    height: 14%;
+    right: 10px;
+    bottom: 14%;
+  }
+
+  .bubble_3 {
+    height: 16%;
+    top: auto;
+    left: 6%;
+    bottom: 30%;
+  }
+
+  .bubble_4 {
+    height: 18%;
+    right: 10%;
+    top: 12%;
+  }
+
+  .bubble_5 {
+    height: 13%;
+    right: 20%;
+    bottom: 48%;
+  }
+
+  .bubble_6 {
+    height: 10%;
+    top: 30%;
+  }
+}
+
+.floating_1 {
+  animation: floating 6s cubic-bezier(0.4, -0.28, 0.35, 0.245) infinite;
+}
+
+.floating_2 {
+  animation: floating 7s cubic-bezier(0.4, -0.28, 0.35, 0.245) infinite;
+}
+
+.floating_3 {
+  animation: floating 8s cubic-bezier(0.4, -0.28, 0.35, 0.245) infinite;
+}
+
+.floating_4 {
+  animation: floating 9s cubic-bezier(0.4, -0.28, 0.35, 0.245) infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  33% {
+    transform: translate(50px, 20px);
+  }
+
+  66% {
+    transform: translate(20px, 50px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}

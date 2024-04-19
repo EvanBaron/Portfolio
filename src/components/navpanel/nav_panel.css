@@ -1,0 +1,83 @@
+@import url("../../colors.css");
+
+.nav_panel {
+  z-index: 1;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 150px;
+  right: -150px;
+  background-color: var(--transparent-black);
+  backdrop-filter: blur(3px);
+}
+
+.separator {
+  height: 20px;
+}
+
+.panel_button {
+  height: 60px;
+  font-size: 20px;
+}
+
+.close_menu {
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.panel_language_button {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 80px;
+  height: 48px;
+  bottom: 60px;
+  border-radius: 10px;
+  background-color: var(--brown);
+  cursor: pointer;
+  user-select: none;
+}
+
+.panel_link {
+  display: flex;
+  position: absolute;
+  align-self: center;
+  bottom: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  user-select: none;
+}
+
+.navpanel_open {
+  animation: slide-in-right 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.navpanel_close {
+  animation: slide-out-right 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-in-right {
+  0% {
+    right: -150px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slide-out-right {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -150px;
+  }
+}

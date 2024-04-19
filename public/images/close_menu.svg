@@ -1,0 +1,11 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="128" y="16.717" width="94.5659" height="23.6415" rx="11.8207" transform="rotate(135 128 16.717)" fill="white"/>
+<rect x="94.5659" y="64" width="23.6415" height="23.6415" rx="11.8207" transform="rotate(-45 94.5659 64)" fill="white"/>
+<rect x="111.283" y="128" width="94.5659" height="23.6415" rx="11.8207" transform="rotate(-135 111.283 128)" fill="white"/>
+<rect x="47.283" y="16.717" width="23.6415" height="23.6415" rx="11.8207" transform="rotate(-45 47.283 16.717)" fill="white"/>
+<rect x="47.283" y="64" width="23.6415" height="23.6415" rx="11.8207" transform="rotate(-45 47.283 64)" fill="white"/>
+<rect x="47.283" y="111.283" width="23.6415" height="23.6415" rx="11.8207" transform="rotate(-45 47.283 111.283)" fill="white"/>
+<rect x="16.717" width="94.5659" height="23.6415" rx="11.8207" transform="rotate(45 16.717 0)" fill="white"/>
+<rect y="64" width="23.6415" height="23.6415" rx="11.8207" transform="rotate(-45 0 64)" fill="white"/>
+<rect y="111.283" width="94.5659" height="23.6415" rx="11.8207" transform="rotate(-45 0 111.283)" fill="white"/>
+</svg>

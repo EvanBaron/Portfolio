@@ -1,0 +1,23 @@
+:root {
+  --transparent-black: rgba(0, 0, 0, 0.15);
+  --white-beige: #fff6ea;
+  --brown: #493b31;
+  --dark-brown: #191614;
+  --transparent-brown: rgba(177, 136, 106, 0.3);
+  --light-blue: #eaf5ff;
+  --dark-blue: #121518;
+  --transparent-blue: rgba(106, 143, 177, 0.3);
+  --blue-gradient: linear-gradient(
+    180deg,
+    rgba(234, 245, 255, 1) 0%,
+    rgba(106, 143, 177, 1) 100%
+  );
+  --bubble-shadow: inset 48px -48px 48px rgba(56, 73, 93, 0.6);
+  --white-red: #ffeaea;
+  --light-red: #b16a6a;
+  --red: #5d3838;
+  --dark-red: #181212;
+  --transparent-red: rgba(177, 106, 106, 0.3);
+  --light-to-red: linear-gradient(180deg, var(--light-red) 0%, var(--red) 100%);
+  --shadow: drop-shadow(-16px 16px 10px rgba(0, 0, 0, 0.25));
+}
