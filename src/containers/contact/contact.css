@@ -185,7 +185,7 @@ textarea {
   }
 
   .link {
-    display: none;
+    display: none !important;
   }
 
   .center {
@@ -241,6 +241,10 @@ textarea {
     width: 90%;
     max-width: 450px;
     min-width: 0;
+  }
+
+  .text h3 {
+    font-size: 32px;
   }
 }
 

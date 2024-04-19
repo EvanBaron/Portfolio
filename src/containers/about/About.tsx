@@ -35,12 +35,12 @@ function About() {
         {t("bubble_4_2")}
       </Bubble>
 
-      <Bubble className="bubble_5" animationClass="floating_3">
+      <Bubble className="bubble_5" animationClass="floating_1">
         {t("bubble_5_1")} <br />
         {t("bubble_5_2")}
       </Bubble>
 
-      <Bubble className="bubble_6" animationClass="floating_3">
+      <Bubble className="bubble_6" animationClass="floating_2">
         {t("bubble_6_1")}
       </Bubble>
 

@@ -105,13 +105,13 @@
   .bubble_1 {
     height: 30%;
     left: 5%;
-    bottom: -5%;
+    bottom: -10%;
   }
 
   .bubble_2 {
     height: 14%;
     right: 10px;
-    bottom: 14%;
+    bottom: 17%;
   }
 
   .bubble_3 {
@@ -129,13 +129,14 @@
 
   .bubble_5 {
     height: 13%;
-    right: 20%;
+    right: 10%;
     bottom: 48%;
   }
 
   .bubble_6 {
     height: 10%;
-    top: 30%;
+    top: 25%;
+    left: 5%;
   }
 }
 

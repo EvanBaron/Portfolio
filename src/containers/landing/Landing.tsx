@@ -7,7 +7,7 @@ function Landing() {
 
   const [cursorPosition, setCursorPosition] = useState({
     x: 0,
-    y: -300,
+    y: 500,
   });
 
   const handleMouseMovement = (event: React.MouseEvent<HTMLDivElement>) => {
