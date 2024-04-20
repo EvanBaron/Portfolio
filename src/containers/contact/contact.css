@@ -107,6 +107,11 @@ textarea {
   outline: none;
 }
 
+::-webkit-input-placeholder {
+  color: var(--white-red);
+  opacity: 0.6;
+}
+
 .form_name {
   height: 10%;
 }
@@ -128,7 +133,6 @@ textarea {
   border-radius: 50px;
   background-color: var(--white-red);
   cursor: pointer;
-  user-select: none;
 }
 .form_send > input {
   position: absolute;
@@ -225,6 +229,7 @@ textarea {
   input,
   textarea {
     font-size: 16px !important;
+    resize: none;
   }
 
   .form p {

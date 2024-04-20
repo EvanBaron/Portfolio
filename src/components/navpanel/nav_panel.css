@@ -43,7 +43,6 @@
   border-radius: 10px;
   background-color: var(--brown);
   cursor: pointer;
-  user-select: none;
 }
 
 .panel_link {
@@ -53,7 +52,6 @@
   bottom: 20px;
   font-size: 20px;
   text-decoration: none;
-  user-select: none;
 }
 
 .navpanel_open {

@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+body * {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
 .link {
   display: flex;
   justify-content: center;
@@ -21,7 +26,6 @@ body {
   text-decoration: none;
   color: var(--white-beige);
   cursor: pointer;
-  user-select: none;
 }
 
 .section {

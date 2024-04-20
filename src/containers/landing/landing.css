@@ -46,7 +46,6 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  user-select: none;
   animation: fade 2s ease-in;
 }
 
@@ -85,24 +84,38 @@ p {
 
 .white_wave {
   margin-bottom: -170px;
-  animation: pan 8s infinite 3s ease both;
+  animation: pan 8s infinite ease both;
 }
 
 .bright_brown_wave {
   margin-bottom: -220px;
   margin-left: 500px;
-  animation: pan 10s infinite 3s ease both;
+  animation: pan 10s infinite ease both;
 }
 
 .brown_wave {
   margin-bottom: -240px;
   margin-right: 200px;
-  animation: pan 12s infinite 3s ease both;
+  animation: pan 12s infinite ease both;
 }
 
 @media screen and (max-width: 1127px) {
   .center_text {
     height: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .white_wave {
+    animation: bigger-pan 10s infinite ease both !important;
+  }
+  .bright_brown_wave {
+    animation: bigger-pan 12s infinite ease both !important;
+  }
+
+  .brown_wave {
+    margin-bottom: -260px;
+    animation: bigger-pan 14s infinite ease both !important;
   }
 }
 
@@ -133,6 +146,18 @@ p {
   }
   100% {
     left: 50%;
+  }
+}
+
+@keyframes bigger-pan {
+  0% {
+    left: 30%;
+  }
+  50% {
+    left: 90%;
+  }
+  100% {
+    left: 30%;
   }
 }
 

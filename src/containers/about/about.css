@@ -135,7 +135,7 @@
 
   .bubble_6 {
     height: 10%;
-    top: 25%;
+    top: 27%;
     left: 5%;
   }
 }
@@ -171,5 +171,19 @@
 
   100% {
     transform: translate(0, 0);
+  }
+}
+
+.tracking-out {
+  animation: tracking-out 0.7s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes tracking-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    opacity: 0;
   }
 }

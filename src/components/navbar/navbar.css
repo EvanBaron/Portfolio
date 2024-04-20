@@ -28,7 +28,6 @@
   text-decoration: none;
   color: var(--white-beige);
   cursor: pointer;
-  user-select: none;
 }
 
 .left_side {
@@ -54,7 +53,6 @@
   border-radius: 10px;
   background-color: var(--brown);
   cursor: pointer;
-  user-select: none;
 }
 
 .right_side {
@@ -90,7 +88,6 @@
   height: 40px;
   right: 0;
   cursor: pointer;
-  user-select: none;
 }
 
 .pyrrhos > img {
