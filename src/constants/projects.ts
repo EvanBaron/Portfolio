@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Lifted",
     description:
-      "A full-stack web and mobile application built to help you track progress at the gym",
+      "A full-stack web and mobile application for tracking and planning your gym workouts, with customizable routines and progress visualization",
     tags: ["React", "Expo", "Supabase", "TypeScript", "PostgreSQL"],
     src: "/lifted.png",
     link: "#",
@@ -10,14 +10,15 @@ export const projects = [
   {
     title: "Pyrrhos",
     description:
-      "A discord application that plays music, using the sapphire framework and discord player",
+      "A feature-rich Discord music bot built with the Sapphire framework, enabling high-quality music playback and playlist management",
     tags: ["discord.js", "Javascript", "Typescript"],
     src: "/pyrrhos.png",
     link: "#",
   },
   {
     title: "This Portfolio",
-    description: "A small Next.js web application to show what I can do",
+    description:
+      "A responsive portfolio website built with Next.js to showcase my projects and skills",
     tags: ["React", "Next.js", "Typescript"],
     src: "/portfolio.svg",
     link: "#",

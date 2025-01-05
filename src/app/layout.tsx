@@ -15,7 +15,7 @@ const thunder = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Evan Baron",
+  title: "Portfolio | Evan Baron",
   description: "Portfolio",
 };
 
