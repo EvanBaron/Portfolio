@@ -3,7 +3,7 @@ type Project = {
   description: string;
   tags: string[];
   src: string;
-  link?: string;
+  link: string;
 };
 
 export const projects: Project[] = [

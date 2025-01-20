@@ -2,7 +2,7 @@ type Technology = {
   name: string;
   alt: string;
   src: string;
-  link?: string;
+  link: string;
 };
 
 export const technologies: Technology[] = [
