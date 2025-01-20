@@ -1,4 +1,12 @@
-export const projects = [
+type Project = {
+  title: string;
+  description: string;
+  tags: string[];
+  src: string;
+  link?: string;
+};
+
+export const projects: Project[] = [
   {
     title: "Lifted",
     description:
@@ -13,7 +21,7 @@ export const projects = [
       "A feature-rich Discord music bot built with the Sapphire framework, enabling high-quality music playback and playlist management",
     tags: ["discord.js", "Javascript", "Typescript"],
     src: "/pyrrhos.png",
-    link: "#",
+    link: "https://github.com/EvanBaron/Pyrrhos",
   },
   {
     title: "This Portfolio",
@@ -21,6 +29,6 @@ export const projects = [
       "A responsive portfolio website built with Next.js to showcase my projects and skills",
     tags: ["React", "Next.js", "Typescript"],
     src: "/portfolio.svg",
-    link: "#",
+    link: "https://github.com/EvanBaron/Portfolio",
   },
 ];

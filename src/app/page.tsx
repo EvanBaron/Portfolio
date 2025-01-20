@@ -89,6 +89,7 @@ export default function Home() {
                 src={tech.src}
                 alt={tech.alt}
                 text={tech.name}
+                link={tech.link}
               />
             ))}
           </ul>
